@@ -204,3 +204,4 @@ class HDFilmCehennemi : MainAPI() {
     data class SearchResults(@JsonProperty("results") val results: List<String> = emptyList())
     data class SubtitleSource(@JsonProperty("file") val file: String? = null, @JsonProperty("label") val label: String? = null, @JsonProperty("kind") val kind: String? = null)
 }
+
